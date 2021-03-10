@@ -1,0 +1,25 @@
+h1 {
+    font-family: Futura;
+
+}
+
+#main_box {
+    flex: ;
+    width: 600px;
+    height: 200px;
+    border: 2px solid;
+    margin-top: 20px;
+    font-family: Futura;
+    padding: 30px;
+}
+
+img {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-left: -20px;
+}
+
+#error-message {
+    color: crimson;
+}

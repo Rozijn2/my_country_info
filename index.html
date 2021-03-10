@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+      <title>Country Information</title>
+       <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+ <body>
+   <h1>Let's search for some country information</h1>
+     <input type="text" id="looking_for_bar" placeholder="Enter country name..."/>
+       <button type="button" id="find">Search</button>
+   <p id="error-message"></p>
+   <div id="main_box"></div>
 
-</body>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+     <script src="main.js"></script>
+ </body>
 </html>
